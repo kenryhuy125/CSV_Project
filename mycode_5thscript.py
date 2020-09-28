@@ -42,7 +42,7 @@ with open_file as a:
 fig = plt.figure()
 fig, ax = plt.subplots(2)
 
-ax[0].set_title('Daily High and Low Temperatures - 2018\nSitka')
+ax[0].set_title('Daily High and Low Temperatures - 2018\nDead Valley')
 ax[0].plot(dates, highs, c="red", alpha=0.5)
 ax[0].plot(dates, lows, c="blue", alpha=0.5)
 
@@ -80,7 +80,7 @@ with open_file2 as b:
             lows.append(low)
             dates.append(the_date)
 
-ax[1].set_title('Daily High and Low Temperatures - 2018\nDeath Valley')
+ax[1].set_title('Daily High and Low Temperatures - 2018\nSitka')
 ax[1].plot(dates, highs, c="red", alpha=0.5)
 ax[1].plot(dates, lows, c="blue", alpha=0.5)
 
