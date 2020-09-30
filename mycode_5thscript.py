@@ -46,6 +46,10 @@ ax[0].set_title('Daily High and Low Temperatures - 2018\nDead Valley')
 ax[0].plot(dates, highs, c="red", alpha=0.5)
 ax[0].plot(dates, lows, c="blue", alpha=0.5)
 
+plt.xlabel('')
+
+#
+
 open_file2 = open("sitka_weather_2018_simple.csv")
 name=''
 
